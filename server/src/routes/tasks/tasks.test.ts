@@ -5,9 +5,9 @@ import * as HttpStatusPhrases from "stoker/http-status-phrases";
 import { afterAll, beforeAll, describe, expect, expectTypeOf, it } from "vitest";
 import { ZodIssueCode } from "zod";
 
-import env from "@/env";
-import { ZOD_ERROR_CODES, ZOD_ERROR_MESSAGES } from "@/lib/constants";
-import createApp from "@/lib/create-app";
+import env from "server/src/env";
+import { ZOD_ERROR_CODES, ZOD_ERROR_MESSAGES } from "server/src/lib/constants";
+import createApp from "server/src/lib/create-app";
 
 import router from "./tasks.index";
 

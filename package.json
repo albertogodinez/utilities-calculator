@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "start": "node ./dist/src/index.js",
+    "dev": "tsx watch server/src/index.ts",
+    "start": "node server/./dist/src/index.js",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "npm run lint --fix",
